@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.6'
 gem 'devise'
 gem "thin", "~> 1.4.1"
-gem "ace-editor", "~> 0.2.0.1362"
+gem 'ace-rails-ap'
 gem 'kaminari'
 gem 'thumbs_up'
 # Bundle edge Rails instead:
@@ -27,7 +27,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'simplecov'
   gem 'capybara'
-  gem 'shoulda', :require => false 
+  gem 'shoulda', :require => false
   gem 'guard'
   gem 'guard-rspec'
   gem 'spork-rails'
