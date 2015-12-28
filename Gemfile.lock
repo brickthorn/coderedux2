@@ -1,8 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    ace-editor (0.2.0.1362)
-      sprockets (~> 2.0)
+    ace-rails-ap (4.0.1)
     actionmailer (3.2.6)
       actionpack (= 3.2.6)
       mail (~> 2.4.4)
@@ -201,7 +200,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  ace-editor (~> 0.2.0.1362)
+  ace-rails-ap
   capybara
   coffee-rails (~> 3.2.1)
   devise
@@ -224,3 +223,6 @@ DEPENDENCIES
   thin (~> 1.4.1)
   thumbs_up
   uglifier (>= 1.0.3)
+
+BUNDLED WITH
+   1.10.6
