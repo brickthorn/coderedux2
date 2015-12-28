@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'ruby', '1.9.3'
+ruby "1.9.3"
+
 gem 'rails', '3.2.6'
 gem 'devise'
 gem "thin", "~> 1.4.1"
