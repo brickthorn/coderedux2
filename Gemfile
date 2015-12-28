@@ -5,6 +5,7 @@ ruby "1.9.3"
 gem 'rails', '3.2.6'
 gem 'devise'
 gem "thin", "~> 1.4.1"
+gem 'ace'
 gem 'ace-rails-ap'
 gem 'kaminari'
 gem 'thumbs_up'
