@@ -3,13 +3,13 @@ class UserMailer < ActionMailer::Base
 
   def welcome_email(user)
     @user = user
-    @url  = "http://afternoon-stream-7185.herokuapp.com/users/sign_in"
+    @url  = "http://coderedux2.herokuapp.com/users/sign_in"
     mail(:to => user.email, :subject => "Welcome to CodeRedux")
   end
 
   def review_email(user)
     @user = user
-    @url  = "http://afternoon-stream-7185.herokuapp.com/users/sign_in"
+    @url  = "http://coderedux2.herokuapp.com/users/sign_in"
     mail(:to => user.email, :subject => "Review from CodeRedux")
   end
 
