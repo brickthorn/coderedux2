@@ -37,6 +37,7 @@ group :development, :test do
   gem 'guard-spork'
   gem 'fabrication'
   gem 'faker'
+  gem 'dotenv-rails'
 end
 
 
